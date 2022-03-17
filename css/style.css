@@ -1,13 +1,15 @@
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Pacifico&display=swap');
+    font-family: 'Fredoka', sans-serif;
   }
   
   .sidebar {
     margin: 0;
     padding: 0;
     /* width: 200px; */
-    background-color: #f1f1f1;
+    background-color: #fcfafa;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -15,7 +17,7 @@ body {
     text-align: center;
   }
   div.content {
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 1px 16px;
     height: 1000px;
   } 
