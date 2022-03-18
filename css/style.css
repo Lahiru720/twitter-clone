@@ -26,12 +26,12 @@ body {
   } 
  
   .sidebar a:hover:not(.active) {
-    background-color: rgb(226, 222, 222);
+    background-color: rgba(231, 228, 228, 0.555);
     color: white;
     /* width: 100px; */
     border-radius: 30px;
-    width: 140px;
-    padding-top: 30px;
+    /* width: 140px; */
+    /* padding-top: 30px; */
     /* display: inline; */
     /* height: 12px; */
     /* display: inline; */
@@ -236,7 +236,7 @@ div.content {
 
 }
 .trends-for-u{
-  height: 900px;
+  height: 850px;
   width: 360px;
   border-radius: 20px;
   background-color: rgba(236, 240, 243, 0.637);
