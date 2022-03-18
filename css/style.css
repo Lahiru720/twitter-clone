@@ -171,22 +171,23 @@ div.content {
 } 
 
 .sidebar2 a:hover:not(.active) {
-  background-color: rgb(226, 222, 222);
+  background-color: rgba(226, 222, 222, 0.274);
   color: white;
   /* width: 100px; */
-  border-radius: 30px;
-  width: 140px;
-  padding-top: 30px;
+  /* border-radius: 30px; */
+  width: 340px;
+  /* padding-top: 0px; */
   /* display: inline; */
   /* height: 12px; */
   /* display: inline; */
   /* display: block; */
+
 }
 
 .sidebar2 a {
     text-align: left;
     /* padding-right: -100px; */
-    margin-left: 70px;
+    /* margin-left: 70px; */
   display: block;
   color: black;
   padding: 10px;
@@ -235,11 +236,15 @@ div.content {
 
 }
 .trends-for-u{
-  height: 500px;
+  height: 900px;
   width: 360px;
   border-radius: 20px;
   background-color: rgba(236, 240, 243, 0.637);
   /* top: -100px; */
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 50px;
+}
+.trend-topic{
+  /* font-weight: bold; */
+  font-size: 10px;
 }
