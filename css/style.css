@@ -236,7 +236,7 @@ div.content {
 
 }
 .trends-for-u{
-  height: 850px;
+  height: 792px;
   width: 360px;
   border-radius: 20px;
   background-color: rgba(236, 240, 243, 0.637);
@@ -247,4 +247,17 @@ div.content {
 .trend-topic{
   /* font-weight: bold; */
   font-size: 10px;
+}
+.btn-show-more:hover{
+border-bottom-left-radius:18px ;
+border-bottom-right-radius:18px ;
+}
+.who-to-follow{
+  height: 792px;
+  width: 360px;
+  border-radius: 20px;
+  background-color: rgba(236, 240, 243, 0.637);
+  /* top: -100px; */
+  margin-top: 10px;
+  margin-left: 50px;
 }
