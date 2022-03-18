@@ -253,11 +253,22 @@ border-bottom-left-radius:18px ;
 border-bottom-right-radius:18px ;
 }
 .who-to-follow{
-  height: 792px;
+  height: 312px;
   width: 360px;
   border-radius: 20px;
   background-color: rgba(236, 240, 243, 0.637);
   /* top: -100px; */
   margin-top: 10px;
   margin-left: 50px;
+}
+#btn-who-to-follow{
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+#btn-who-to-follow:hover{
+  cursor: pointer;
 }
