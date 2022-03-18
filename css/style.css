@@ -344,12 +344,53 @@ color: #00acee;
   border-radius: 50%;
   cursor: pointer;
 }
+#cmnt-item i{
+  font-size: 18px;
+  padding: 8px;
+  color: #00acee;
+  }
+
+  #cmnt-item i:hover{
+    /* background-color: #acddf05e; */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .react-table td{
+    width: 150px;
+  }
+  #comment:hover{
+    background-color:  #acddf05e;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+  }
+  #comment{
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    color: #646969;
+  }
+  #retweet:hover{
+    background-color: #a6f0d996;
+  }
+  #love:hover{
+    background-color:  rgba(241, 50, 139, 0.171);
+  }
+  #share:hover{
+      color: #646969;
+background-color: #90dbf86e;    
+  }
 .show-tweeks:hover{
   background-color: #f0f0f5;
   transition: .5s ease-in-out;
 }
 .show-tweeks{
   transition: .5s ease-in-out;
+}
+.post-1:hover{
+  background-color: rgb(241, 241, 241);
+  transition: .5s ease;
+}
+.post-1{
+  transition: .5s ease;
 }
 .post-p{
   font-size: 12px;
@@ -359,8 +400,15 @@ color: #00acee;
   font-size: 14px;
 }
 .reactions i{
-  padding: 40px;
-  padding-left: 50px;
+  /* padding: 40px; */
+  /* padding-left: 90px; */
+}
+.reactions i:hover{
+  /* padding: 40px; */
+  /* padding-left: 90px; */
+  background-color: #aee3f854;
+  border-radius: 50%;
+
 }
 .reactions{
   
