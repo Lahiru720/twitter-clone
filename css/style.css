@@ -120,7 +120,9 @@ body {
 
  .navbar {
   overflow: hidden;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(253, 252, 252);
+  
+  /* background-color: transparent; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -131,7 +133,7 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  /* color: #f2f2f2; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -283,11 +285,37 @@ footer {
   /* padding-left: 60px; */
   color: rgb(94, 87, 87);
   display: inline;
-  font-size: 13px;
-  text-align: right;
+  font-size: 12px;
+ 
+
 }
 #footer-links:hover{
   background-color: transparent;
   color: rgb(94, 87, 87);
   text-decoration: underline;
+}
+#whats-happenning{
+  border: none;
+  font-size: 19px;
+}
+.everyone-can-reply{
+  text-decoration: none;
+  font-size: 12px;
+  /* margin-left:30px ; */
+  padding-left: 10px;
+  font-weight: bold;
+  color: #00acee;
+}
+.everyone-can-reply:hover{
+  
+}
+#ecrd:hover{
+  background-color: #cae9f5;
+  border-radius: 20px;
+  transition: .5s ease-in-out;
+  
+}
+#ecrd{
+  
+  margin-left: 20px;
 }
