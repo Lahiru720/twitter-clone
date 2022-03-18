@@ -113,3 +113,35 @@ body {
     background-color: #ebebeb;
     border-radius: 40px;
   }
+ /* stating header of post area */
+
+ .navbar {
+  overflow: hidden;
+  background-color: rgb(100, 91, 91);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  /* filter: blur(0.5rem); */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
