@@ -9,12 +9,14 @@ body {
     margin: 0;
     padding: 0;
     /* width: 200px; */
-    background-color: #fcfafa;
+    background-color: #ffffff;
     position: fixed;
     height: 100%;
     overflow: auto;
     width: 300px;
     text-align: center;
+    border-right: 1px solid rgb(224, 221, 221);
+    /* display: inline; */
   }
   div.content {
     margin-left: 300px;
@@ -22,3 +24,92 @@ body {
     height: 1000px;
   } 
  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(226, 222, 222);
+    color: white;
+    /* width: 100px; */
+    border-radius: 30px;
+    width: 140px;
+    padding-top: 30px;
+    /* display: inline; */
+    /* height: 12px; */
+    /* display: inline; */
+    /* display: block; */
+  }
+
+  .sidebar a {
+      text-align: left;
+      /* padding-right: -100px; */
+      margin-left: 70px;
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+   
+  .sidebar a.active {
+    /* background-color: #04AA6D; */
+    color: rgb(56, 54, 54);
+
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  #tweet-logo:hover{
+    background-color: #e4f6fd;
+    color: white;
+    /* width: 100px; */
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  #btnTweet{
+      width: 220px;
+      height: 60px;
+      background-color: #00acee;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      color: white;
+      font-size: 18px;
+      margin-left: 40px;
+
+  }
+  .footer-account-btn img{
+    border-radius: 50%;
+  }
+  .footer-account-btn{
+    top: 520px;
+    left: 40px;
+    width: 250px;
+    position: fixed;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+  }
+  .footer-account-btn:hover{
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 40px;
+  }
