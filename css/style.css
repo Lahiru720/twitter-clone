@@ -14,6 +14,7 @@ body {
     height: 100%;
     overflow: auto;
     width: 300px;
+    /* float: left; */
     text-align: center;
     border-right: 1px solid rgb(224, 221, 221);
     /* display: inline; */
@@ -117,7 +118,7 @@ body {
 
  .navbar {
   overflow: hidden;
-  background-color: rgb(100, 91, 91);
+  background-color: rgb(240, 240, 240);
   position: fixed;
   top: 0;
   width: 100%;
@@ -132,7 +133,8 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 10px;
+  padding-left: 320px;
 }
 
 .navbar a:hover {
@@ -144,4 +146,74 @@ body {
   padding: 16px;
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+.sidebar2 {
+  margin: 0;
+  margin-left: 950px;
+  /* width: 200px; */
+  background-color: #e45c5c;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width: 500px;
+  /* float: right; */
+  text-align: center;
+  border-right: 1px solid rgb(224, 221, 221);
+  /* display: inline; */
+}
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+
+} 
+
+.sidebar2 a:hover:not(.active) {
+  background-color: rgb(226, 222, 222);
+  color: white;
+  /* width: 100px; */
+  border-radius: 30px;
+  width: 140px;
+  padding-top: 30px;
+  /* display: inline; */
+  /* height: 12px; */
+  /* display: inline; */
+  /* display: block; */
+}
+
+.sidebar2 a {
+    text-align: left;
+    /* padding-right: -100px; */
+    margin-left: 70px;
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+.sidebar2 a.active {
+  /* background-color: #04AA6D; */
+  color: rgb(56, 54, 54);
+
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar2 a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar2 a {
+    text-align: center;
+    float: none;
+  }
 }
