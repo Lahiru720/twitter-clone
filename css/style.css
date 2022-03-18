@@ -319,3 +319,28 @@ footer {
   
   margin-left: 20px;
 }
+#btn-tweet{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 40px;
+  background-color: #90dbf8;
+  color: white;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+
+}
+#btn-tweet:hover{
+background-color: #00acee;
+transition: .5s ease-in-out;
+}
+#select-item i{
+font-size: 20px;
+padding: 8px;
+color: #00acee;
+}
+#select-item i:hover{
+  background-color: #acddf05e;
+  border-radius: 50%;
+  cursor: pointer;
+}
