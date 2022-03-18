@@ -6,7 +6,7 @@ body {
   }
   html {
     scroll-behavior: smooth;
-  }
+  } 
   .sidebar {
     margin: 0;
     padding: 0;
@@ -273,4 +273,21 @@ border-bottom-right-radius:18px ;
 }
 #btn-who-to-follow:hover{
   cursor: pointer;
+}
+footer {
+  /* font-size: 10px; */
+  padding-top: 20px;
+  font-size: 10px;
+}
+#footer-links{
+  /* padding-left: 60px; */
+  color: rgb(94, 87, 87);
+  display: inline;
+  font-size: 13px;
+  text-align: right;
+}
+#footer-links:hover{
+  background-color: transparent;
+  color: rgb(94, 87, 87);
+  text-decoration: underline;
 }
