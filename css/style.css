@@ -4,7 +4,9 @@ body {
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Pacifico&display=swap');
     font-family: 'Fredoka', sans-serif;
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
   .sidebar {
     margin: 0;
     padding: 0;
