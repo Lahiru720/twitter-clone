@@ -151,16 +151,16 @@ body {
 
 .sidebar2 {
   margin: 0;
-  margin-left: 950px;
+  margin-left: 920px;
   /* width: 200px; */
-  background-color: #e45c5c;
+  background-color: #ffffff;
   position: fixed;
   height: 100%;
   overflow: auto;
   width: 500px;
   /* float: right; */
   text-align: center;
-  border-right: 1px solid rgb(224, 221, 221);
+  border-left: 1px solid rgb(224, 221, 221);
   /* display: inline; */
 }
 div.content {
@@ -216,4 +216,18 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+.search-s2{
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  padding-left: 20px;
+}
+.search-s2 input{
+  width: 300px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 30px;
+  border: .5px solid gray;
+
 }
